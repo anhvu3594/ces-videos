@@ -1,0 +1,6 @@
+web:
+  image: ces_videos:2.0
+  volumes:
+    - ./ces-videos/core/src:/code
+  ports:
+    - "8000:80"
